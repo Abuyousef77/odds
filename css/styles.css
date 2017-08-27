@@ -1,1 +1,33 @@
+html {
+    background-color: olive;
+}
 
+#info {
+  text-align: center;
+  display:none;
+}
+
+#info2 {
+  text-align: center;
+  display:none;
+}
+
+#results {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#odds {
+  text-align: center;
+}
+
+#even {
+  text-align: center;
+}
+
+ul {
+  list-style:none;
+}
