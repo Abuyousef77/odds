@@ -15,7 +15,9 @@ $(function() {
       } else {
         newentry.appendTo(oddslist);
       }
-
+      for (var index = 0; index < 1; index += 1) {
+        alert("Here are your answers!");
+      }
         ++currentnumber;
       }
   });
