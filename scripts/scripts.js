@@ -15,13 +15,14 @@ $(function() {
       } else {
         newentry.appendTo(oddslist);
       }
-      for (var index = 0; index < 1; index += 1) {
-        alert("Here are your answers!");
-      }
-        ++currentnumber;
-      }
+      ++currentnumber;
+    }
+    for (i = num; i >= 100; i -= num) {
+     alert("Wow that is a lot of numbers!");
+    }
   });
 });
+
     // back end logic
 function iseven(number) {
   if (number % 2 == 0) {
