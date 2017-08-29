@@ -6,7 +6,7 @@ $(function() {
     event.preventDefault();
     var num = $(this.answer).val();
     var currentnumber = 1;
-    while(currentnumber <= num) {
+    for(i = 0; i <= num; i +=1 ) {
       var newentry = $("<li>" + currentnumber + "</li>");
       var evenslist = $("#even");
       var oddslist = $("#odds");
@@ -17,9 +17,9 @@ $(function() {
       }
       ++currentnumber;
     }
-    for (i = num; i >= 100; i -= num) {
-     alert("Wow that is a lot of numbers!");
-    }
+    // for (i = num; i >= 100; i -= num) {
+    //  alert("Wow that is a lot of numbers!");
+    // }
   });
 });
 
